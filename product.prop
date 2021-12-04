@@ -25,3 +25,6 @@ bluetooth.profile.pbap.server.enabled?=true
 
 # Project-Elixir Stuff
 org.elixir.device=Redmi K20/Mi 9T
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
