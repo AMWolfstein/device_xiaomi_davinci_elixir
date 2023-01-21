@@ -23,6 +23,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 
+# MiuiCamera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
