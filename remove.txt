@@ -2,3 +2,4 @@ device/xiaomi
 kernel/xiaomi
 vendor/xiaomi
 prebuilts/clang/host/linux-x86/clang-playground
+hardware/lineage/compat
